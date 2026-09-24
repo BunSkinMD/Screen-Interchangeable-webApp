@@ -58,3 +58,25 @@ window.SCREENMATCH_DATA=[
 {brand:"Samsung",model:"Galaxy A72",aliases:["a72","galaxy a72"],screen:[{model:"Galaxy A72",level:"exact",label:"Exact",reason:"Designed for Galaxy A72."}],camera:[{model:"Galaxy A72",level:"exact",label:"Exact",reason:"Designed for Galaxy A72 camera layout."}]},
 {brand:"Samsung",model:"Galaxy A73 5G",aliases:["a73","a73 5g","galaxy a73"],screen:[{model:"Galaxy A73 5G",level:"exact",label:"Exact",reason:"Designed for Galaxy A73 5G."}],camera:[{model:"Galaxy A73 5G",level:"exact",label:"Exact",reason:"Designed for Galaxy A73 5G camera layout."}]}
 ];
+
+/* PHONE CASE COMPATIBILITY — conservative by design.
+   Only groups supported by matching dimensions/cutouts or manufacturer listings are marked compatible.
+   All other models default to Exact only until verified. */
+(()=>{
+ const groups=[
+  {models:["iPhone 12","iPhone 12 Pro"],level:"good",reason:"These two phones have identical body dimensions and cases are commonly sold for both; camera openings should still be checked."},
+  {models:["Galaxy A15 / A15 5G"],level:"good",reason:"A15 and A15 5G cases are commonly listed together and the external dimensions/port layout match."},
+  {models:["Galaxy A52","Galaxy A52 5G","Galaxy A52s 5G"],level:"good",reason:"These A52 variants share the same external dimensions and case/cutout layout."}
+ ];
+ const byModel=new Map();
+ groups.forEach(g=>g.models.forEach(m=>byModel.set(m,g)));
+ window.SCREENMATCH_DATA.forEach(item=>{
+   const g=byModel.get(item.model);
+   const exact={model:item.model,level:"exact",label:"Exact",reason:"Designed/listed for this exact phone model."};
+   if(g){
+     item.case=[exact,...g.models.filter(m=>m!==item.model).map(m=>({model:m,level:g.level,label:"Good match",reason:g.reason}))];
+   }else{
+     item.case=[exact];
+   }
+ });
+})();
