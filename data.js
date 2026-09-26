@@ -80,3 +80,31 @@ window.SCREENMATCH_DATA=[
    }
  });
 })();
+/* PHONE DETAILS — starter verified sales-reference data. Regional RAM/storage variants can differ. */
+(()=>{const D={
+"iPhone 11":{specs:{Storage:"64 / 128 / 256GB",Display:"6.1-inch OLED",Chip:"A13 Bionic",Rear:"Dual 12MP",Network:"4G LTE"},sellingPoints:["OLED display","Night mode cameras","IP68 water resistance"]},
+"iPhone 12":{specs:{Storage:"64 / 128 / 256GB",Display:"6.1-inch OLED",Chip:"A14 Bionic",Rear:"Dual 12MP",Charging:"MagSafe + Lightning",Network:"5G"},sellingPoints:["5G","OLED display","MagSafe","IP68 water resistance"]},
+"iPhone 13":{specs:{Storage:"128 / 256 / 512GB",Display:"6.1-inch OLED",Chip:"A15 Bionic",Rear:"Dual 12MP",Network:"5G"},sellingPoints:["128GB starting capacity","OLED display","Strong A15 performance","IP68 water resistance"]},
+"iPhone 14":{specs:{Storage:"128 / 256 / 512GB",Display:"6.1-inch OLED",Chip:"A15 Bionic",Rear:"Dual 12MP",Network:"5G"},sellingPoints:["OLED display","5G","Crash Detection","Emergency SOS via satellite"]},
+"iPhone 15":{specs:{Storage:"128 / 256 / 512GB",Display:"6.1-inch OLED",Chip:"A16 Bionic",Rear:"48MP + 12MP",Charging:"USB-C + MagSafe",Network:"5G"},sellingPoints:["USB-C","48MP main camera","Dynamic Island","5G"]},
+"iPhone 16":{specs:{Storage:"128 / 256 / 512GB",Display:"6.1-inch OLED",Chip:"A18",Rear:"48MP + 12MP",Charging:"USB-C + MagSafe",Network:"5G"},sellingPoints:["A18 chip","Camera Control","Apple Intelligence","USB-C"]},
+"Galaxy A06":{specs:{Storage:"Varies by region",Display:"6.7-inch HD+ LCD",Battery:"5,000mAh",Network:"4G LTE"},sellingPoints:["Large display","5,000mAh battery","Entry-level price point"]},
+"Galaxy A06 5G":{specs:{Storage:"Varies by region",Display:"6.7-inch HD+ LCD",Battery:"5,000mAh",Network:"5G",Protection:"IP54"},sellingPoints:["5G","Large display","5,000mAh battery","IP54 protection"]},
+"Galaxy A15 / A15 5G":{specs:{Storage:"128 / 256GB (region dependent)",Display:"6.5-inch FHD+ Super AMOLED",Refresh:"90Hz",Battery:"5,000mAh",Network:"4G / 5G depending on version"},sellingPoints:["Super AMOLED display","90Hz","5,000mAh battery","microSD support"]},
+"Galaxy A16 / A16 5G":{specs:{Storage:"Varies by region",Display:"6.7-inch FHD+ Super AMOLED",Refresh:"90Hz",Battery:"5,000mAh",Network:"4G / 5G depending on version",Protection:"IP54"},sellingPoints:["Large Super AMOLED display","90Hz","5,000mAh battery","Long software support"]},
+"Galaxy A17 5G":{specs:{Storage:"128GB (region dependent)",RAM:"4GB (region dependent)",Display:"6.7-inch FHD+ Super AMOLED",Refresh:"90Hz",Battery:"5,000mAh",Charging:"25W",Network:"5G"},sellingPoints:["5G","Super AMOLED","90Hz","5,000mAh battery","25W charging"]},
+"Galaxy A25 5G":{specs:{Storage:"128 / 256GB (region dependent)",RAM:"6 / 8GB (region dependent)",Display:"6.5-inch FHD+ Super AMOLED",Refresh:"120Hz",Battery:"5,000mAh",Network:"5G"},sellingPoints:["120Hz AMOLED","OIS main camera","5G","5,000mAh battery","microSD support"]},
+"Galaxy A26 5G":{specs:{Storage:"128GB (region dependent)",RAM:"6GB (region dependent)",Display:"6.7-inch FHD+ Super AMOLED",Refresh:"120Hz",Battery:"5,000mAh",Charging:"25W",Network:"5G"},sellingPoints:["120Hz AMOLED","OIS main camera","5G","5,000mAh battery","microSD support"]},
+"Galaxy A34 5G":{specs:{Storage:"128 / 256GB (region dependent)",RAM:"6 / 8GB",Display:"6.6-inch FHD+ Super AMOLED",Refresh:"120Hz",Battery:"5,000mAh",Network:"5G"},sellingPoints:["120Hz AMOLED","OIS main camera","5G","IP67 protection"]},
+"Galaxy A35 5G":{specs:{Storage:"128 / 256GB (region dependent)",RAM:"6 / 8GB",Display:"6.6-inch FHD+ Super AMOLED",Refresh:"120Hz",Battery:"5,000mAh",Network:"5G"},sellingPoints:["120Hz AMOLED","OIS main camera","5G","IP67 protection"]},
+"Galaxy A36 5G":{specs:{Storage:"128 / 256GB (region dependent)",RAM:"6 / 8GB (region dependent)",Display:"6.7-inch FHD+ Super AMOLED",Refresh:"120Hz",Battery:"5,000mAh",Charging:"45W",Network:"5G"},sellingPoints:["120Hz AMOLED","50MP OIS main camera","45W charging","5,000mAh battery","IP67 protection"]},
+"Galaxy A52":{specs:{Storage:"128 / 256GB (region dependent)",RAM:"6 / 8GB",Display:"6.5-inch Super AMOLED",Refresh:"90Hz",Battery:"4,500mAh",Network:"4G LTE"},sellingPoints:["Super AMOLED","90Hz","Stereo speakers","microSD support"]},
+"Galaxy A53 5G":{specs:{Storage:"128 / 256GB (region dependent)",RAM:"6 / 8GB",Display:"6.5-inch Super AMOLED",Refresh:"120Hz",Battery:"5,000mAh",Network:"5G"},sellingPoints:["120Hz AMOLED","5G","5,000mAh battery","IP67 protection"]},
+"Galaxy A54 5G":{specs:{Storage:"128 / 256GB (region dependent)",RAM:"6 / 8GB",Display:"6.4-inch Super AMOLED",Refresh:"120Hz",Battery:"5,000mAh",Network:"5G"},sellingPoints:["120Hz AMOLED","50MP OIS camera","5G","IP67 protection"]},
+"Galaxy A55 5G":{specs:{Storage:"128 / 256GB (region dependent)",RAM:"8GB (region dependent)",Display:"6.6-inch Super AMOLED",Refresh:"120Hz",Battery:"5,000mAh",Network:"5G"},sellingPoints:["120Hz AMOLED","Metal frame","5G","5,000mAh battery","IP67 protection"]},
+"Galaxy A56 5G":{specs:{Storage:"128 / 256GB (region dependent)",RAM:"8GB (region dependent)",Display:"6.7-inch Super AMOLED",Refresh:"120Hz",Battery:"5,000mAh",Charging:"45W",Network:"5G"},sellingPoints:["120Hz AMOLED","50MP OIS camera","45W charging","5,000mAh battery","Long software support"]},
+"Galaxy A70":{specs:{Storage:"128GB",RAM:"6 / 8GB (region dependent)",Display:"6.7-inch Super AMOLED",Battery:"4,500mAh",Network:"4G LTE"},sellingPoints:["Large Super AMOLED display","Large battery","microSD support","32MP selfie camera"]},
+"Galaxy A71 5G":{specs:{Storage:"128GB (region dependent)",RAM:"6 / 8GB",Display:"6.7-inch Super AMOLED Plus",Battery:"4,500mAh",Network:"5G"},sellingPoints:["Large AMOLED display","5G","Large battery","microSD support"]},
+"Galaxy A72":{specs:{Storage:"128 / 256GB (region dependent)",RAM:"6 / 8GB",Display:"6.7-inch Super AMOLED",Refresh:"90Hz",Battery:"5,000mAh",Network:"4G LTE"},sellingPoints:["90Hz AMOLED","Telephoto camera","5,000mAh battery","IP67 protection"]},
+"Galaxy A73 5G":{specs:{Storage:"128 / 256GB (region dependent)",RAM:"6 / 8GB",Display:"6.7-inch Super AMOLED Plus",Refresh:"120Hz",Battery:"5,000mAh",Network:"5G"},sellingPoints:["120Hz AMOLED Plus","108MP main camera","5G","5,000mAh battery","IP67 protection"]}
+};window.SCREENMATCH_DATA.forEach(i=>{if(D[i.model])i.details=D[i.model]})})();
