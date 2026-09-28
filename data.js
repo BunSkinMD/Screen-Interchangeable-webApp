@@ -107,7 +107,8 @@ window.SCREENMATCH_DATA=[
 "Galaxy A71 5G":{specs:{Storage:"128GB (region dependent)",RAM:"6 / 8GB",Display:"6.7-inch Super AMOLED Plus",Battery:"4,500mAh",Network:"5G"},sellingPoints:["Large AMOLED display","5G","Large battery","microSD support"]},
 "Galaxy A72":{specs:{Storage:"128 / 256GB (region dependent)",RAM:"6 / 8GB",Display:"6.7-inch Super AMOLED",Refresh:"90Hz",Battery:"5,000mAh",Network:"4G LTE"},sellingPoints:["90Hz AMOLED","Telephoto camera","5,000mAh battery","IP67 protection"]},
 "Galaxy A73 5G":{specs:{Storage:"128 / 256GB (region dependent)",RAM:"6 / 8GB",Display:"6.7-inch Super AMOLED Plus",Refresh:"120Hz",Battery:"5,000mAh",Network:"5G"},sellingPoints:["120Hz AMOLED Plus","108MP main camera","5G","5,000mAh battery","IP67 protection"]}
-};window.SCREENMATCH_DATA.forEach(i=>{if(D[i.model])i.details=D[i.model]})})();\n// APPLE 17/18 SERIES — verified from Apple technical specifications.
+};window.SCREENMATCH_DATA.forEach(i=>{if(D[i.model])i.details=D[i.model]})})();
+// APPLE 17/18 SERIES — verified from Apple technical specifications.
 const APPLE_17_18_DETAILS={
 "iPhone 17":{specs:{Storage:"256 / 512GB",Display:"6.3-inch Super Retina XDR OLED",Refresh:"Up to 120Hz ProMotion",Chip:"A19",Rear:"48MP Fusion Main + 48MP Fusion Ultra Wide",Front:"18MP Center Stage",Battery:"Up to 30 hours video playback",Charging:"USB-C + MagSafe up to 25W",Network:"5G",Protection:"IP68"},sellingPoints:["6.3-inch ProMotion OLED","A19 chip","48MP dual Fusion camera system","18MP Center Stage camera","USB-C","5G"]},
 "iPhone 17e":{specs:{Storage:"256 / 512GB",Display:"6.1-inch Super Retina XDR OLED",Chip:"A19",Rear:"48MP Fusion Main with 2x optical-quality Telephoto",Front:"12MP TrueDepth",Battery:"Up to 26 hours video playback",Charging:"USB-C + MagSafe up to 15W",Network:"5G",Protection:"IP68"},sellingPoints:["256GB starting storage","A19 chip","48MP Fusion camera","Face ID","USB-C","5G"]},
@@ -120,4 +121,5 @@ const APPLE_17_18_DETAILS={
 Object.entries(APPLE_17_18_DETAILS).forEach(([model,details])=>{
  const item=window.SCREENMATCH_DATA.find(i=>i.model===model);
  if(item)item.details=details;
-});\n
+});
+
