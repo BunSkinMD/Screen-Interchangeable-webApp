@@ -56,7 +56,26 @@ window.SCREENMATCH_DATA=[
 {brand:"Samsung",model:"Galaxy A70",aliases:["a70","samsung a70","galaxy a70"],screen:[{model:"Galaxy A70",level:"exact",label:"Exact",reason:"Designed for Galaxy A70."}],camera:[{model:"Galaxy A70",level:"exact",label:"Exact",reason:"Designed for Galaxy A70."}]},
 {brand:"Samsung",model:"Galaxy A71 5G",aliases:["a71","a71 5g","galaxy a71"],screen:[{model:"Galaxy A71 5G",level:"exact",label:"Exact",reason:"Designed for Galaxy A71 5G."}],camera:[{model:"Galaxy A71 5G",level:"exact",label:"Exact",reason:"Designed for Galaxy A71 5G camera layout."}]},
 {brand:"Samsung",model:"Galaxy A72",aliases:["a72","galaxy a72"],screen:[{model:"Galaxy A72",level:"exact",label:"Exact",reason:"Designed for Galaxy A72."}],camera:[{model:"Galaxy A72",level:"exact",label:"Exact",reason:"Designed for Galaxy A72 camera layout."}]},
-{brand:"Samsung",model:"Galaxy A73 5G",aliases:["a73","a73 5g","galaxy a73"],screen:[{model:"Galaxy A73 5G",level:"exact",label:"Exact",reason:"Designed for Galaxy A73 5G."}],camera:[{model:"Galaxy A73 5G",level:"exact",label:"Exact",reason:"Designed for Galaxy A73 5G camera layout."}]}
+{brand:"Samsung",model:"Galaxy A73 5G",aliases:["a73","a73 5g","galaxy a73"],screen:[{model:"Galaxy A73 5G",level:"exact",label:"Exact",reason:"Designed for Galaxy A73 5G."}],camera:[{model:"Galaxy A73 5G",level:"exact",label:"Exact",reason:"Designed for Galaxy A73 5G camera layout."}]},
+/* SAMSUNG ADDITIONS — requested older A-series, FE and S-series models */
+{brand:"Samsung",model:"Galaxy A05",aliases:["a05","galaxy a05","samsung a05"],screen:[{model:"Galaxy A05",level:"exact",label:"Exact",reason:"Designed for Galaxy A05."}],camera:[{model:"Galaxy A05",level:"exact",label:"Exact",reason:"Designed for the Galaxy A05 camera layout."}]},
+{brand:"Samsung",model:"Galaxy A05s",aliases:["a05s","galaxy a05s","samsung a05s"],screen:[{model:"Galaxy A05s",level:"exact",label:"Exact",reason:"Designed for Galaxy A05s."}],camera:[{model:"Galaxy A05s",level:"exact",label:"Exact",reason:"Designed for the Galaxy A05s camera layout."}]},
+{brand:"Samsung",model:"Galaxy A04",aliases:["a04","galaxy a04","samsung a04"],screen:[{model:"Galaxy A04",level:"exact",label:"Exact",reason:"Designed for Galaxy A04."}],camera:[{model:"Galaxy A04",level:"exact",label:"Exact",reason:"Designed for the Galaxy A04 camera layout."}]},
+{brand:"Samsung",model:"Galaxy A03",aliases:["a03","galaxy a03","samsung a03"],screen:[{model:"Galaxy A03",level:"exact",label:"Exact",reason:"Designed for Galaxy A03."}],camera:[{model:"Galaxy A03",level:"exact",label:"Exact",reason:"Designed for the Galaxy A03 camera layout."}]},
+{brand:"Samsung",model:"Galaxy A03s",aliases:["a03s","galaxy a03s","samsung a03s"],screen:[{model:"Galaxy A03s",level:"exact",label:"Exact",reason:"Designed for Galaxy A03s."}],camera:[{model:"Galaxy A03s",level:"exact",label:"Exact",reason:"Designed for the Galaxy A03s camera layout."}]},
+{brand:"Samsung",model:"Galaxy A03 Core",aliases:["a03 core","a03core","galaxy a03 core"],screen:[{model:"Galaxy A03 Core",level:"exact",label:"Exact",reason:"Designed for Galaxy A03 Core."}],camera:[{model:"Galaxy A03 Core",level:"exact",label:"Exact",reason:"Designed for the Galaxy A03 Core camera layout."}]},
+{brand:"Samsung",model:"Galaxy A02",aliases:["a02","galaxy a02","samsung a02"],screen:[{model:"Galaxy A02",level:"exact",label:"Exact",reason:"Designed for Galaxy A02."}],camera:[{model:"Galaxy A02",level:"exact",label:"Exact",reason:"Designed for the Galaxy A02 camera layout."}]},
+{brand:"Samsung",model:"Galaxy A02s",aliases:["a02s","galaxy a02s","samsung a02s"],screen:[{model:"Galaxy A02s",level:"exact",label:"Exact",reason:"Designed for Galaxy A02s."}],camera:[{model:"Galaxy A02s",level:"exact",label:"Exact",reason:"Designed for the Galaxy A02s camera layout."}]},
+{brand:"Samsung",model:"Galaxy A07 5G",aliases:["a07 5g","a07","galaxy a07 5g","galaxy a07"],screen:[{model:"Galaxy A07 5G",level:"exact",label:"Exact",reason:"Designed for Galaxy A07 5G."}],camera:[{model:"Galaxy A07 5G",level:"exact",label:"Exact",reason:"Designed for the Galaxy A07 5G camera layout."}]},
+{brand:"Samsung",model:"Galaxy S23 FE",aliases:["s23 fe","galaxy s23 fe","samsung s23 fe"],screen:[{model:"Galaxy S23 FE",level:"exact",label:"Exact",reason:"Designed for Galaxy S23 FE."}],camera:[{model:"Galaxy S23 FE",level:"exact",label:"Exact",reason:"Designed for the Galaxy S23 FE camera layout."}]},
+{brand:"Samsung",model:"Galaxy S24 FE",aliases:["s24 fe","galaxy s24 fe","samsung s24 fe"],screen:[{model:"Galaxy S24 FE",level:"exact",label:"Exact",reason:"Designed for Galaxy S24 FE."}],camera:[{model:"Galaxy S24 FE",level:"exact",label:"Exact",reason:"Designed for the Galaxy S24 FE camera layout."}]},
+{brand:"Samsung",model:"Galaxy A14",aliases:["a14","galaxy a14","samsung a14"],screen:[{model:"Galaxy A14",level:"exact",label:"Exact",reason:"Designed for Galaxy A14."}],camera:[{model:"Galaxy A14",level:"exact",label:"Exact",reason:"Designed for the Galaxy A14 camera layout."}]},
+{brand:"Samsung",model:"Galaxy A13",aliases:["a13","galaxy a13","samsung a13"],screen:[{model:"Galaxy A13",level:"exact",label:"Exact",reason:"Designed for Galaxy A13."}],camera:[{model:"Galaxy A13",level:"exact",label:"Exact",reason:"Designed for the Galaxy A13 camera layout."}]},
+{brand:"Samsung",model:"Galaxy S10",aliases:["s10","galaxy s10","samsung s10"],screen:[{model:"Galaxy S10",level:"exact",label:"Exact",reason:"Designed for Galaxy S10."}],camera:[{model:"Galaxy S10",level:"exact",label:"Exact",reason:"Designed for the Galaxy S10 camera layout."}]},
+{brand:"Samsung",model:"Galaxy S10+",aliases:["s10 plus","s10+","s10plus","galaxy s10 plus","galaxy s10+"],screen:[{model:"Galaxy S10+",level:"exact",label:"Exact",reason:"Designed for Galaxy S10+."}],camera:[{model:"Galaxy S10+",level:"exact",label:"Exact",reason:"Designed for the Galaxy S10+ camera layout."}]},
+{brand:"Samsung",model:"Galaxy S20",aliases:["s20","s20 5g","galaxy s20","galaxy s20 5g"],screen:[{model:"Galaxy S20",level:"exact",label:"Exact",reason:"Designed for Galaxy S20."}],camera:[{model:"Galaxy S20",level:"exact",label:"Exact",reason:"Designed for the Galaxy S20 camera layout."}]},
+{brand:"Samsung",model:"Galaxy A04e",aliases:["a04e","galaxy a04e","samsung a04e"],screen:[{model:"Galaxy A04e",level:"exact",label:"Exact",reason:"Designed for Galaxy A04e."}],camera:[{model:"Galaxy A04e",level:"exact",label:"Exact",reason:"Designed for the Galaxy A04e camera layout."}]},
+{brand:"Samsung",model:"Galaxy A21",aliases:["a21","galaxy a21","samsung a21"],screen:[{model:"Galaxy A21",level:"exact",label:"Exact",reason:"Designed for Galaxy A21."}],camera:[{model:"Galaxy A21",level:"exact",label:"Exact",reason:"Designed for the Galaxy A21 camera layout."}]}
 ];
 
 /* PHONE CASE COMPATIBILITY — conservative by design.
@@ -151,4 +170,34 @@ Object.entries(EXTRA).forEach(([model,details])=>{
  const item=window.SCREENMATCH_DATA.find(i=>i.model===model);
  if(item)item.details=details;
 });
+})();
+
+
+/* ACCESSORY INTERCHANGEABILITY UPDATES — verified/conservative. */
+(()=>{
+ const by=(name)=>window.SCREENMATCH_DATA.find(i=>i.model===name);
+ const ensureCase=(name)=>{const i=by(name);if(i&&!i.case)i.case=[{model:i.model,level:"exact",label:"Exact",reason:"Designed/listed for this exact phone model."}];};
+ const addGroup=(field,names,level,reason)=>names.forEach(name=>{const i=by(name);if(!i)return;i[field]=[{model:i.model,level:"exact",label:"Exact",reason:"Designed/listed for this exact phone model."},...names.filter(x=>x!==name&&by(x)).map(x=>({model:x,level,label:level==="good"?"Good match":"Check fit",reason}))]});
+ addGroup("screen",["Galaxy A02","Galaxy A02s","Galaxy A03","Galaxy A03s","Galaxy A03 Core"],"good","Multiple accessory listings group these models for the same tempered-glass protector; verify the exact glass cut and edge coverage before selling.");
+ addGroup("screen",["Galaxy A05","Galaxy A05s","Galaxy A06","Galaxy A06 5G"],"good","Third-party accessory listings explicitly group these models for compatible screen protectors; verify the exact cutout and edge coverage.");
+ addGroup("screen",["Galaxy A07 5G","Galaxy A17 5G","Galaxy A27 5G","Galaxy A37 5G","Galaxy A57 5G"],"good","Accessory compatibility listings group these models for the same screen-protector size/cutout family; verify the exact product before selling.");
+ addGroup("screen",["iPhone 16 Pro Max","iPhone 17 Pro Max","iPhone 18 Pro Max"],"good","Current accessory products explicitly support these three Pro Max generations; they share a 6.9-inch, 2868x1320 display class, but individual protector cuts can still vary.");
+ ensureCase("Galaxy A05");
+ ensureCase("Galaxy A05s");
+ ensureCase("Galaxy A04");
+ ensureCase("Galaxy A03");
+ ensureCase("Galaxy A03s");
+ ensureCase("Galaxy A03 Core");
+ ensureCase("Galaxy A02");
+ ensureCase("Galaxy A02s");
+ ensureCase("Galaxy A07 5G");
+ ensureCase("Galaxy S23 FE");
+ ensureCase("Galaxy S24 FE");
+ ensureCase("Galaxy A14");
+ ensureCase("Galaxy A13");
+ ensureCase("Galaxy S10");
+ ensureCase("Galaxy S10+");
+ ensureCase("Galaxy S20");
+ ensureCase("Galaxy A04e");
+ ensureCase("Galaxy A21");
 })();
