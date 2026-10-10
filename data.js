@@ -240,3 +240,24 @@ Object.entries(EXTRA).forEach(([model,details])=>{
   });
  }
 })();
+/* SAMSUNG GALAXY A33 5G */
+(()=>{
+ const model="Galaxy A33 5G";
+ if(!window.SCREENMATCH_DATA.some(i=>i.model===model)){
+  window.SCREENMATCH_DATA.push({
+   brand:"Samsung",model:model,
+   aliases:["a33","a33 5g","galaxy a33","galaxy a33 5g","samsung a33 5g","sm-a336"],
+   screen:[{model:model,level:"exact",label:"Exact",reason:"Designed for Galaxy A33 5G."}],
+   camera:[{model:model,level:"exact",label:"Exact",reason:"Designed for the Galaxy A33 5G camera layout; confirm the protector matches the camera islands."}],
+   case:[{model:model,level:"exact",label:"Exact",reason:"Designed for Galaxy A33 5G. Do not assume Galaxy A53 cases fit; body dimensions and camera cutouts differ."}],
+   details:{specs:{
+    Storage:"128 / 256GB (market dependent)",RAM:"6 / 8GB (market dependent)",
+    Display:"6.4-inch FHD+ Super AMOLED",Refresh:"90Hz",
+    Chip:"Octa-core (2.4GHz + 2.0GHz)",
+    Rear:"48MP Main with OIS + 8MP Ultra Wide + 5MP Macro + 2MP Depth",
+    Front:"13MP",Battery:"5,000mAh",Charging:"25W wired",Network:"5G",
+    Protection:"IP67 water and dust resistance"
+   },sellingPoints:["6.4-inch Super AMOLED display","90Hz refresh rate","48MP main camera with OIS","5,000mAh battery","25W fast charging","5G connectivity","IP67 water and dust resistance"]}
+  });
+ }
+})();
