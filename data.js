@@ -212,3 +212,31 @@ Object.entries(EXTRA).forEach(([model,details])=>{
 "Galaxy A20":{Storage:"32GB (some regional variants differ)",RAM:"3GB (common variant)",Display:"6.4-inch HD+ Super AMOLED",Refresh:"60Hz",Chip:"Exynos 7904 / regional variant",Rear:"13MP Main + 5MP Ultra Wide",Front:"8MP",Battery:"4,000mAh",Charging:"15W wired",Network:"4G LTE"},
 "Galaxy A20s":{Storage:"32 / 64GB (region dependent)",RAM:"3 / 4GB (region dependent)",Display:"6.5-inch HD+ TFT LCD",Refresh:"60Hz",Chip:"Snapdragon 450",Rear:"13MP Main + 8MP Ultra Wide + 5MP Depth",Front:"8MP",Battery:"4,000mAh",Charging:"15W wired",Network:"4G LTE"}
 };Object.entries(D).forEach(([model,specs])=>{const i=window.SCREENMATCH_DATA.find(x=>x.model===model);i.details={specs,sellingPoints:[specs.Display,specs.Rear,specs.Battery,specs.Network]}});const addGroup=(field,names,reason)=>names.forEach(name=>{const i=window.SCREENMATCH_DATA.find(x=>x.model===name);if(i)i[field]=[{model:name,level:"exact",label:"Exact",reason:"Designed/listed for this exact phone model."}]});["Galaxy A20","Galaxy A20s"].forEach(name=>{const i=window.SCREENMATCH_DATA.find(x=>x.model===name);if(i&&!i.case)i.case=[{model:name,level:"exact",label:"Exact",reason:"Designed/listed for this exact phone model."}]});})();
+
+
+/* SAMSUNG GALAXY A33 5G — accessory compatibility and phone details */
+(()=>{
+ const model="Galaxy A33 5G";
+ if(!window.SCREENMATCH_DATA.some(i=>i.model===model)){
+  window.SCREENMATCH_DATA.push({
+   brand:"Samsung",model,
+   aliases:["a33","a33 5g","galaxy a33","galaxy a33 5g","samsung a33 5g","sm-a336"],
+   screen:[{model,level:"exact",label:"Exact",reason:"Designed for Galaxy A33 5G."}],
+   camera:[{model,level:"exact",label:"Exact",reason:"Designed for the Galaxy A33 5G rear-camera layout; confirm the protector matches the camera islands."}],
+   case:[{model,level:"exact",label:"Exact",reason:"Designed for Galaxy A33 5G. Do not assume A53 cases fit; body dimensions and camera cutouts differ."}],
+   details:{specs:{
+    Storage:"128 / 256GB (market dependent)",
+    RAM:"6 / 8GB (market dependent)",
+    Display:"6.4-inch FHD+ Super AMOLED",
+    Refresh:"90Hz",
+    Chip:"Octa-core (2.4GHz + 2.0GHz)",
+    Rear:"48MP Main with OIS + 8MP Ultra Wide + 5MP Macro + 2MP Depth",
+    Front:"13MP",
+    Battery:"5,000mAh",
+    Charging:"25W wired",
+    Network:"5G",
+    Protection:"IP67 water and dust resistance"
+   },sellingPoints:["6.4-inch Super AMOLED display","90Hz refresh rate","48MP main camera with OIS","5,000mAh battery","25W fast charging","5G connectivity","IP67 water and dust resistance"]}
+  });
+ }
+})();
