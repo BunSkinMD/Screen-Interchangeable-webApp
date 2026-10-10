@@ -261,3 +261,29 @@ Object.entries(EXTRA).forEach(([model,details])=>{
   });
  }
 })();
+/* SAMSUNG GALAXY F05 */
+(()=>{
+ const model="Galaxy F05";
+ if(!window.SCREENMATCH_DATA.some(i=>i.model===model)){
+  window.SCREENMATCH_DATA.push({
+   brand:"Samsung",model:model,
+   aliases:["f05","f05 4g","galaxy f05","galaxy f05 4g","samsung f05"],
+   screen:[
+    {model:model,level:"exact",label:"Exact",reason:"Designed for Galaxy F05."},
+    {model:"Galaxy M05",level:"good",label:"Good match",reason:"Accessory listings group Galaxy F05 and M05 screen protectors; check exact edge and cutout fit."},
+    {model:"Galaxy A05",level:"check",label:"Check fit",reason:"Some sellers group A05/F05/M05 accessories; verify the exact protector before selling."}
+   ],
+   camera:[{model:model,level:"exact",label:"Exact",reason:"Designed for Galaxy F05 dual rear-camera layout."}],
+   case:[
+    {model:model,level:"exact",label:"Exact",reason:"Designed for Galaxy F05."},
+    {model:"Galaxy M05",level:"good",label:"Good match",reason:"Third-party case listings explicitly group Galaxy F05 and M05; verify camera, button and port cutouts."},
+    {model:"Galaxy A05",level:"check",label:"Check fit",reason:"Some listings group A05/F05/M05 cases; test physical fit and cutouts before selling."}
+   ],
+   details:{specs:{
+    Storage:"64GB (market dependent)",RAM:"4GB (market dependent)",
+    Display:"6.7-inch HD+ PLS LCD",Refresh:"60Hz",Chip:"MediaTek Helio G85",
+    Rear:"50MP Main + 2MP Depth",Front:"8MP",Battery:"5,000mAh",
+    Charging:"25W wired",Network:"4G LTE"
+   },sellingPoints:["6.7-inch HD+ display","50MP main camera","MediaTek Helio G85","5,000mAh battery","25W charging","Expandable storage"]}
+  });
+})();
