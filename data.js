@@ -286,4 +286,5 @@ Object.entries(EXTRA).forEach(([model,details])=>{
     Charging:"25W wired",Network:"4G LTE"
    },sellingPoints:["6.7-inch HD+ display","50MP main camera","MediaTek Helio G85","5,000mAh battery","25W charging","Expandable storage"]}
   });
+ }
 })();
