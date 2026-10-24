@@ -20,7 +20,7 @@ window.SCREENMATCH_TRADE_VALUES = [
 {brand:"Apple",model:"iPhone 15 Pro",storage:"512 GB",values:{"6–6.5":70000,"7–7.5":80000,"8–8.5":90000,"9–9.5":100000,"Mint":110000}},
 {brand:"Apple",model:"iPhone 15 Pro",storage:"1 TB",values:{"6–6.5":85000,"7–7.5":100000,"8–8.5":115000,"9–9.5":130000,"Mint":145000}},
 
-{brand:"Apple",model:"iPhone 15 Pro Max",storage:"256 GB",values:{"7–7.5":85000,"8–8.5":95000,"9–9.5":105000,"Mint":110000}},
+{brand:"Apple",model:"iPhone 15 Pro Max",storage:"256 GB",values:{"7–7.5":85000,"8":90000,"8.5":95000,"9":100000,"9.5":105000,"Mint":110000}},
 {brand:"Apple",model:"iPhone 15 Pro Max",storage:"512 GB",values:{"7–7.5":92000,"8–8.5":102000,"9–9.5":112000,"Mint":117000}},
 {brand:"Apple",model:"iPhone 15 Pro Max",storage:"1 TB",values:{"7–7.5":99000,"8–8.5":111000,"9–9.5":125000,"Mint":130000}},
 
