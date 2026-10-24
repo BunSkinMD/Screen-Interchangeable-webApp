@@ -37,9 +37,9 @@ window.SCREENMATCH_TRADE_VALUES = [
 {brand:"Apple",model:"iPhone 16 Pro",storage:"512 GB",values:{"7–7.5":105000,"8–8.5":115000,"9–9.5":125000,"Mint":130000}},
 {brand:"Apple",model:"iPhone 16 Pro",storage:"1 TB",values:{"7–7.5":110000,"8–8.5":120000,"9–9.5":130000,"Mint":135000}},
 
-{brand:"Apple",model:"iPhone 16 Pro Max",storage:"256 GB",values:{"7–7.5":110000,"8–8.5":120000,"9–9.5":130000,"Mint":135000}},
-{brand:"Apple",model:"iPhone 16 Pro Max",storage:"512 GB",values:{"7–7.5":115000,"8–8.5":125000,"9–9.5":135000,"Mint":140000}},
-{brand:"Apple",model:"iPhone 16 Pro Max",storage:"1 TB",values:{"7–7.5":120000,"8–8.5":130000,"9–9.5":140000,"Mint":145000}},
+{brand:"Apple",model:"iPhone 16 Pro Max",storage:"256 GB",values:{"7–7.5":110000,"8":115000,"8.5":120000,"9":125000,"9.5":130000,"Mint":135000}},
+{brand:"Apple",model:"iPhone 16 Pro Max",storage:"512 GB",values:{"7–7.5":115000,"8":120000,"8.5":125000,"9":130000,"9.5":135000,"Mint":140000}},
+{brand:"Apple",model:"iPhone 16 Pro Max",storage:"1 TB",values:{"7–7.5":120000,"8":125000,"8.5":130000,"9":135000,"9.5":140000,"Mint":145000}},
 
 {brand:"Apple",model:"iPhone 17",storage:"256 GB",values:{"7–7.5":120000,"8–8.5":130000,"9–9.5":140000,"Mint":145000}},
 {brand:"Apple",model:"iPhone 17",storage:"512 GB",values:{"7–7.5":125000,"8–8.5":135000,"9–9.5":145000,"Mint":150000}},
