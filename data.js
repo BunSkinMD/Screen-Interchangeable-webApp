@@ -288,3 +288,44 @@ Object.entries(EXTRA).forEach(([model,details])=>{
   });
  }
 })();
+
+/* SAMSUNG GALAXY S23 SERIES — requested accessory matching and phone details */
+(()=>{
+ const entries=[
+  {
+   brand:"Samsung",model:"Galaxy S23 Ultra",
+   aliases:["s23 ultra","galaxy s23 ultra","samsung s23 ultra","sm-s918","sm-s918b"],
+   screen:[{model:"Galaxy S23 Ultra",level:"exact",label:"Exact",reason:"Designed for Galaxy S23 Ultra. Its curved-edge 6.8-inch display differs from the base S23; do not substitute base S23 protectors."}],
+   camera:[{model:"Galaxy S23 Ultra",level:"exact",label:"Exact",reason:"Designed for the S23 Ultra's four-camera layout. Camera protector shape and flash cutouts must match."}],
+   case:[{model:"Galaxy S23 Ultra",level:"exact",label:"Exact",reason:"Designed for Galaxy S23 Ultra; the camera cutout, body size and S Pen slot make cases model-specific."}],
+   details:{specs:{
+    Storage:"256GB / 512GB / 1TB (market dependent)",RAM:"8GB / 12GB (variant dependent)",
+    Display:"6.8-inch QHD+ Dynamic AMOLED 2X",Refresh:"Adaptive up to 120Hz",
+    Chip:"Qualcomm Snapdragon 8 Gen 2 for Galaxy",
+    Rear:"200MP Main + 12MP Ultra Wide + 10MP 3x Telephoto + 10MP 10x Telephoto",
+    Front:"12MP",Battery:"5,000mAh",Charging:"Up to 45W wired",
+    Network:"5G",Protection:"IP68 water and dust resistance"
+   },sellingPoints:["6.8-inch QHD+ AMOLED display","Adaptive 120Hz refresh rate","200MP main camera","3x and 10x optical telephoto cameras","5,000mAh battery","S Pen support","IP68 water and dust resistance"]}
+  },
+  {
+   brand:"Samsung",model:"Galaxy S23",
+   aliases:["s23","galaxy s23","samsung s23","base s23","sm-s911","sm-s911b"],
+   screen:[{model:"Galaxy S23",level:"exact",label:"Exact",reason:"Designed for the base Galaxy S23. Do not assume S23 FE or S23 Ultra protectors fit."}],
+   camera:[{model:"Galaxy S23",level:"exact",label:"Exact",reason:"Designed for the base S23's three separate rear-camera lenses; not the S23 Ultra camera layout."}],
+   case:[{model:"Galaxy S23",level:"exact",label:"Exact",reason:"Designed for the base Galaxy S23. S23+ / S23 FE / S23 Ultra cases are different sizes and cutouts."}],
+   details:{specs:{
+    Storage:"128GB / 256GB (market dependent)",RAM:"8GB",
+    Display:"6.1-inch FHD+ Dynamic AMOLED 2X",Refresh:"Adaptive up to 120Hz",
+    Chip:"Qualcomm Snapdragon 8 Gen 2 for Galaxy",
+    Rear:"50MP Main + 12MP Ultra Wide + 10MP 3x Telephoto",
+    Front:"12MP",Battery:"3,900mAh",Charging:"Up to 25W wired",
+    Network:"5G",Protection:"IP68 water and dust resistance"
+   },sellingPoints:["Compact 6.1-inch AMOLED display","Adaptive 120Hz refresh rate","50MP main camera","3x optical telephoto camera","3,900mAh battery","Wireless charging support","IP68 water and dust resistance"]}
+  }
+ ];
+ entries.forEach(entry=>{
+  const existing=window.SCREENMATCH_DATA.find(x=>x.model===entry.model);
+  if(existing) Object.assign(existing,entry);
+  else window.SCREENMATCH_DATA.push(entry);
+ });
+})();
