@@ -57,3 +57,30 @@ window.SCREENMATCH_TRADE_VALUES = [
 {brand:"Apple",model:"iPhone 17 Air",storage:"512 GB",values:{"7–7.5":125000,"8–8.5":135000,"9–9.5":145000,"Mint":150000}},
 {brand:"Apple",model:"iPhone 17 Air",storage:"1 TB",values:{"7–7.5":130000,"8–8.5":150000,"9–9.5":160000,"Mint":165000}}
 ];
+
+// Samsung models/storage variants visible in the supplied spreadsheet photos.
+// Amounts are intentionally blank until the small trade-value figures can be confirmed.
+[
+["Galaxy A06",["64 GB","128 GB"]],
+["Galaxy A07",["128 GB"]],
+["Galaxy A26",["128 GB"]],
+["Galaxy A16",["128 GB"]],
+["Galaxy A17",["128 GB"]],
+["Galaxy A17 5G",["128 GB"]],
+["Galaxy A55 5G",["128 GB","256 GB"]],
+["Galaxy A15",["64 GB","128 GB"]],
+["Galaxy S22 Ultra",["256 GB"]],
+["Galaxy S23+",["256 GB","512 GB"]],
+["Galaxy S23 Ultra",["256 GB","512 GB","1 TB"]],
+["Galaxy S23 FE",["128 GB","256 GB"]],
+["Galaxy A34 5G",["128 GB","256 GB"]],
+["Galaxy M54 5G",["128 GB","256 GB"]],
+["Galaxy A25 5G",["128 GB","256 GB"]],
+["Galaxy S24",["128 GB","256 GB"]],
+["Galaxy S24+",["256 GB","512 GB"]],
+["Galaxy S24 Ultra",["256 GB","512 GB","1 TB"]],
+["Galaxy A35 5G",["128 GB","256 GB"]]
+].forEach(([model,storages])=>storages.forEach(storage=>{
+ if(!window.SCREENMATCH_TRADE_VALUES.some(x=>x.model===model&&x.storage===storage))
+  window.SCREENMATCH_TRADE_VALUES.push({brand:"Samsung",model,storage,values:{}});
+}));
