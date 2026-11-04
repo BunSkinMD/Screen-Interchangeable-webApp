@@ -56,6 +56,15 @@ window.SCREENMATCH_TRADE_VALUES = [
 {brand:"Apple",model:"iPhone 17 Air",storage:"256 GB",values:{"7–7.5":120000,"8–8.5":130000,"9–9.5":140000,"Mint":145000}},
 {brand:"Apple",model:"iPhone 17 Air",storage:"512 GB",values:{"7–7.5":125000,"8–8.5":135000,"9–9.5":145000,"Mint":150000}},
 {brand:"Apple",model:"iPhone 17 Air",storage:"1 TB",values:{"7–7.5":130000,"8–8.5":150000,"9–9.5":160000,"Mint":165000}}
+
+{brand:"Apple",model:"iPhone 13 Pro",storage:"128 GB",values:{"6–6.5":38000,"7–7.5":41000,"8–8.5":44000,"9–9.5":47000,"Mint":50000}},
+{brand:"Apple",model:"iPhone 13 Pro",storage:"256 GB",values:{"6–6.5":41000,"7–7.5":44000,"8–8.5":47000,"9–9.5":50000,"Mint":53000}},
+{brand:"Apple",model:"iPhone 13 Pro",storage:"512 GB",values:{"6–6.5":44000,"7–7.5":47000,"8–8.5":50000,"9–9.5":53000,"Mint":56000}},
+{brand:"Apple",model:"iPhone 13 Pro",storage:"1 TB",values:{"6–6.5":49000,"7–7.5":54000,"8–8.5":59000,"9–9.5":64000,"Mint":69000}},
+{brand:"Apple",model:"iPhone 13 Pro Max",storage:"128 GB",values:{"6–6.5":44000,"7–7.5":48000,"8–8.5":52000,"9–9.5":56000,"Mint":60000}},
+{brand:"Apple",model:"iPhone 13 Pro Max",storage:"256 GB",values:{"6–6.5":48000,"7–7.5":52000,"8–8.5":56000,"9–9.5":60000,"Mint":64000}},
+{brand:"Apple",model:"iPhone 13 Pro Max",storage:"512 GB",values:{"9–9.5":70000}},
+{brand:"Apple",model:"iPhone 13 Pro Max",storage:"1 TB",values:{"6–6.5":57000,"7–7.5":62000,"8–8.5":67000,"9–9.5":72000,"Mint":77000}}
 ];
 
 // Samsung models/storage variants visible in the supplied spreadsheet photos.
