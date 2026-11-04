@@ -329,3 +329,90 @@ Object.entries(EXTRA).forEach(([model,details])=>{
   else window.SCREENMATCH_DATA.push(entry);
  });
 })();
+
+
+/* SAMSUNG GALAXY S ULTRA SERIES — S22 through S26 */
+(()=>{
+ const entries=[
+  {
+   brand:"Samsung",model:"Galaxy S22 Ultra",
+   aliases:["s22 ultra","galaxy s22 ultra","samsung s22 ultra","sm-s908","sm-s908b","sm-s908u"],
+   screen:[{model:"Galaxy S22 Ultra",level:"exact",label:"Exact",reason:"Designed for Galaxy S22 Ultra. The curved 6.8-inch display and front-camera cutout require the correct S22 Ultra glass."}],
+   camera:[{model:"Galaxy S22 Ultra",level:"exact",label:"Exact",reason:"Designed for the S22 Ultra's four rear-camera lenses and flash layout."}],
+   case:[{model:"Galaxy S22 Ultra",level:"exact",label:"Exact",reason:"Designed for Galaxy S22 Ultra. Its body dimensions, S Pen slot and camera layout are model-specific."}],
+   details:{specs:{
+    Storage:"128 / 256 / 512GB / 1TB (market dependent)",RAM:"8 / 12GB (variant dependent)",
+    Display:"6.8-inch QHD+ Edge Dynamic AMOLED 2X",Refresh:"Adaptive up to 120Hz",
+    Chip:"Snapdragon 8 Gen 1 or Exynos 2200 (region dependent)",
+    Rear:"108MP Main + 12MP Ultra Wide + 10MP 3x Telephoto + 10MP 10x Telephoto",
+    Front:"40MP",Battery:"5,000mAh",Charging:"Up to 45W wired + wireless charging",
+    Network:"5G",Protection:"IP68 water and dust resistance"
+   },sellingPoints:["6.8-inch QHD+ AMOLED display","Adaptive 120Hz refresh rate","108MP main camera","3x and 10x optical telephoto cameras","Built-in S Pen","5,000mAh battery","IP68 water and dust resistance"]}
+  },
+  {
+   brand:"Samsung",model:"Galaxy S23 Ultra",
+   aliases:["s23 ultra","galaxy s23 ultra","samsung s23 ultra","sm-s918","sm-s918b","sm-s918u"],
+   screen:[{model:"Galaxy S23 Ultra",level:"exact",label:"Exact",reason:"Designed for Galaxy S23 Ultra. Do not assume S22 Ultra or S24 Ultra glass fits; check the exact dimensions and cutouts."}],
+   camera:[{model:"Galaxy S23 Ultra",level:"exact",label:"Exact",reason:"Designed for the S23 Ultra's four-camera layout. Camera protector shape and flash cutouts must match."}],
+   case:[{model:"Galaxy S23 Ultra",level:"exact",label:"Exact",reason:"Designed for Galaxy S23 Ultra; the camera cutout, body size and S Pen slot make cases model-specific."}],
+   details:{specs:{
+    Storage:"256 / 512GB / 1TB (market dependent)",RAM:"8 / 12GB (variant dependent)",
+    Display:"6.8-inch QHD+ Edge Dynamic AMOLED 2X",Refresh:"Adaptive up to 120Hz",
+    Chip:"Qualcomm Snapdragon 8 Gen 2 for Galaxy",
+    Rear:"200MP Main + 12MP Ultra Wide + 10MP 3x Telephoto + 10MP 10x Telephoto",
+    Front:"12MP",Battery:"5,000mAh",Charging:"Up to 45W wired + wireless charging",
+    Network:"5G",Protection:"IP68 water and dust resistance"
+   },sellingPoints:["6.8-inch QHD+ AMOLED display","Adaptive 120Hz refresh rate","200MP main camera","3x and 10x optical telephoto cameras","Built-in S Pen","5,000mAh battery","IP68 water and dust resistance"]}
+  },
+  {
+   brand:"Samsung",model:"Galaxy S24 Ultra",
+   aliases:["s24 ultra","galaxy s24 ultra","samsung s24 ultra","sm-s928","sm-s928b","sm-s928u"],
+   screen:[{model:"Galaxy S24 Ultra",level:"exact",label:"Exact",reason:"Designed for Galaxy S24 Ultra. Its flat 6.8-inch display differs from the curved S22/S23 Ultra screens; use an S24 Ultra-specific protector."}],
+   camera:[{model:"Galaxy S24 Ultra",level:"exact",label:"Exact",reason:"Designed for the S24 Ultra camera layout, including its 5x telephoto lens."}],
+   case:[{model:"Galaxy S24 Ultra",level:"exact",label:"Exact",reason:"Designed for Galaxy S24 Ultra. Frame shape, button placement and camera openings differ from earlier Ultra models."}],
+   details:{specs:{
+    Storage:"256 / 512GB / 1TB (market dependent)",RAM:"12GB",
+    Display:"6.8-inch QHD+ Dynamic AMOLED 2X",Refresh:"Adaptive up to 120Hz",
+    Chip:"Qualcomm Snapdragon 8 Gen 3 for Galaxy",
+    Rear:"200MP Main + 12MP Ultra Wide + 50MP 5x Telephoto + 10MP 3x Telephoto",
+    Front:"12MP",Battery:"5,000mAh",Charging:"Up to 45W wired + wireless charging",
+    Network:"5G",Protection:"IP68 water and dust resistance"
+   },sellingPoints:["Flat 6.8-inch QHD+ AMOLED display","Adaptive 120Hz refresh rate","200MP main camera","50MP 5x telephoto camera","Built-in S Pen","Titanium frame","7 years of software support"]}
+  },
+  {
+   brand:"Samsung",model:"Galaxy S25 Ultra",
+   aliases:["s25 ultra","galaxy s25 ultra","samsung s25 ultra","sm-s938","sm-s938b","sm-s938u"],
+   screen:[{model:"Galaxy S25 Ultra",level:"exact",label:"Exact",reason:"Designed for Galaxy S25 Ultra. Although it has a 6.9-inch display, its dimensions and corner shape differ from other Ultra generations."}],
+   camera:[{model:"Galaxy S25 Ultra",level:"exact",label:"Exact",reason:"Designed for the S25 Ultra camera layout, including the 50MP ultra-wide camera."}],
+   case:[{model:"Galaxy S25 Ultra",level:"exact",label:"Exact",reason:"Designed for Galaxy S25 Ultra. Its body dimensions, rounded corners, button placement and camera openings are specific to this model."}],
+   details:{specs:{
+    Storage:"256 / 512GB / 1TB (market dependent)",RAM:"12GB",
+    Display:"6.9-inch QHD+ Dynamic AMOLED 2X",Refresh:"Adaptive up to 120Hz",
+    Chip:"Qualcomm Snapdragon 8 Elite for Galaxy",
+    Rear:"200MP Main + 50MP Ultra Wide + 50MP 5x Telephoto + 10MP 3x Telephoto",
+    Front:"12MP",Battery:"5,000mAh",Charging:"Up to 45W wired + wireless charging",
+    Network:"5G",Protection:"IP68 water and dust resistance"
+   },sellingPoints:["6.9-inch QHD+ AMOLED display","Adaptive 120Hz refresh rate","200MP main camera","50MP ultra-wide camera","5x and 3x optical telephoto cameras","Built-in S Pen","Titanium frame"]}
+  },
+  {
+   brand:"Samsung",model:"Galaxy S26 Ultra",
+   aliases:["s26 ultra","galaxy s26 ultra","samsung s26 ultra","sm-s948","sm-s948b","sm-s948u"],
+   screen:[{model:"Galaxy S26 Ultra",level:"exact",label:"Exact",reason:"Designed for Galaxy S26 Ultra. Do not assume S25 Ultra glass fits just because both displays measure 6.9 inches."}],
+   camera:[{model:"Galaxy S26 Ultra",level:"exact",label:"Exact",reason:"Designed for the S26 Ultra's updated rear-camera layout."}],
+   case:[{model:"Galaxy S26 Ultra",level:"exact",label:"Exact",reason:"Designed for Galaxy S26 Ultra. The slimmer body and revised camera openings require an S26 Ultra-specific case."}],
+   details:{specs:{
+    Storage:"256 / 512GB / 1TB (market dependent)",RAM:"12GB / 16GB (storage/region dependent)",
+    Display:"6.9-inch QHD+ Dynamic AMOLED 2X",Refresh:"Adaptive up to 120Hz",
+    Chip:"Snapdragon 8 Elite Gen 5 for Galaxy",
+    Rear:"200MP Main + 50MP Ultra Wide + 50MP 5x Telephoto + 10MP 3x Telephoto",
+    Front:"12MP",Battery:"5,000mAh",Charging:"Up to 60W wired + wireless charging",
+    Network:"5G",Protection:"IP68 water and dust resistance"
+   },sellingPoints:["6.9-inch QHD+ AMOLED display","Adaptive 120Hz refresh rate","200MP main camera","50MP ultra-wide camera","5x and 3x optical telephoto cameras","Built-in S Pen","Updated Galaxy AI features"]}
+  }
+ ];
+ entries.forEach(entry=>{
+  const existing=window.SCREENMATCH_DATA.find(x=>x.model===entry.model);
+  if(existing) Object.assign(existing,entry);
+  else window.SCREENMATCH_DATA.push(entry);
+ });
+})();
