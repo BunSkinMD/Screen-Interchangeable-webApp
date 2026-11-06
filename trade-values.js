@@ -55,7 +55,11 @@ window.SCREENMATCH_TRADE_VALUES = [
 
 {brand:"Apple",model:"iPhone 17 Air",storage:"256 GB",values:{"7–7.5":120000,"8–8.5":130000,"9–9.5":140000,"Mint":145000}},
 {brand:"Apple",model:"iPhone 17 Air",storage:"512 GB",values:{"7–7.5":125000,"8–8.5":135000,"9–9.5":145000,"Mint":150000}},
-{brand:"Apple",model:"iPhone 17 Air",storage:"1 TB",values:{"7–7.5":130000,"8–8.5":150000,"9–9.5":160000,"Mint":165000}}
+{brand:"Apple",model:"iPhone 17 Air",storage:"1 TB",values:{"7–7.5":130000,"8–8.5":150000,"9–9.5":160000,"Mint":165000}},
+
+{brand:"Apple",model:"iPhone 13",storage:"128 GB",values:{"6–6.5":35000,"7–7.5":38000,"8–8.5":41000,"9–9.5":44000,"Mint":47000}},
+{brand:"Apple",model:"iPhone 13",storage:"256 GB",values:{"6–6.5":38000,"7–7.5":41000,"8–8.5":44000,"9–9.5":47000,"Mint":50000}},
+{brand:"Apple",model:"iPhone 13",storage:"512 GB",values:{"6–6.5":41000,"7–7.5":44000,"8–8.5":47000,"9–9.5":50000,"Mint":53000}},
 
 {brand:"Apple",model:"iPhone 13 Pro",storage:"128 GB",values:{"6–6.5":38000,"7–7.5":41000,"8–8.5":44000,"9–9.5":47000,"Mint":50000}},
 {brand:"Apple",model:"iPhone 13 Pro",storage:"256 GB",values:{"6–6.5":41000,"7–7.5":44000,"8–8.5":47000,"9–9.5":50000,"Mint":53000}},
